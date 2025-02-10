@@ -19,7 +19,7 @@ bonus : $(NAME) $(B_OBJS)
 	touch bonus
 
 clean :
-	rm -f $(OBJS) $(B_OBJS)
+	rm -f $(OBJS) $(B_OBJS) bonus
 
 fclean : clean
 	rm -f $(NAME)
